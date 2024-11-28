@@ -1,0 +1,48 @@
+public class FolhaPGTO {
+    public static void main (String args[]){
+
+        men1 = new Mensalista("Jose", "Rua abc", "Junior");
+        men1.calcularSalario();
+        men1.calcularInss();
+        System.out.println("nome: " + men1.getNome());
+        System.out.println("nome: " + men1.getEndereco());
+        System.out.println("Salario: " + men1.getSalario());
+
+        men2 = new Mensalista("Jose", "Rua abc", "Junior");
+        men2.calcularSalario();
+        men2.calcularInss();
+        System.out.println("nome: " + men2.getNome());
+        System.out.println("nome: " + men2.getEndereco());
+        System.out.println("Salario: " + men2.getSalario());
+
+        //horistas
+
+        hora1 = new Horista("Carlos", "Rua xyz", 20);
+        hora1.calcularSalario();
+        System.out.println(
+            "Nome: " + hora1.getNome();
+        );
+        System.out.println(
+            "Endereço: " + hora1.getEndereco();
+        );
+        System.out.println(
+            "Salário: " hora1.getSalario();
+        );
+
+        hora2 = new Horista("Carlos", "Rua xyz", 20);
+        hora2.calcularSalario();
+        System.out.println(
+            "Nome: " + hora2.getNome();
+        );
+        System.out.println(
+            "Endereço: " + hora2.getEndereco();
+        );
+        System.out.println(
+            "Salário: " hora2.getSalario();
+        );
+
+
+
+    }
+}
+    
